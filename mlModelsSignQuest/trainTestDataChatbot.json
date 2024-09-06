@@ -1,0 +1,90 @@
+
+{
+  "data": [
+    {
+      "word": "greeting",
+      "phrases": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello"
+
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "word": "goodbye",
+      "phrases": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "thanks for visiting",
+        "Have a nice day",
+        "see you soon ."
+      ]
+    },
+    {
+      "word": "thanks",
+      "phrases": ["Thanks", "Thank you", "That' is helpful", "Thank you a lot!"],
+      "responses": ["Happy to help you !", "Any time you need", "My pleasure"]
+    },
+    {
+      "word": "a",
+      "phrases": [
+        "show me the sign for a",
+        "whats the sign for a?",
+                "i need help with the sign of a?",
+
+        "can you tell me the sign of letter a?"
+      ],
+      "responses": [
+        "trainingpicturesallgestures/A/2.jpg"
+      ]
+    },
+    {
+      "word": "b",
+      "phrases": [
+        "show me the sign of b?",
+        "what is the sign of b?",
+        "i need help with the sign of b?",
+        "can you tell me the sign of letter b?"
+      ],
+      "responses": [
+    "trainingpicturesallgestures/B/1.jpg"
+
+      ]
+    },
+    {
+      "word": "c",
+      "phrases": [
+        "show me the sign of c?",
+        "what is the sign of c?",
+        "i need help with the sign of c?",
+        "can you tell me the sign of letter c?"
+      ],
+      "responses": [
+         "trainingpicturesallgestures/C/1.jpg"
+      ]
+    },
+
+    {
+      "word": "suggest",
+      "phrases": [
+        "suggest what courses I should study",
+        "show my progress on the courses?",
+        "give me suggestions"
+      ],
+      "responses": [
+         "makeSuggestionApiCall"
+      ]
+    }
+
+
+
+
+
+  ]
+}

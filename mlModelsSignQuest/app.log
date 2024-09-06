@@ -1,0 +1,599 @@
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:19:42] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:19:43] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:19:46] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:19:47] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:19:48] "POST /classifySign HTTP/1.1" 200 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3023, in __getattr__
+    return getattr(self.stream, name)
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 63, in process_image2
+    data_url = data_url.replace('data:image/jpeg;base64,', '')
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3029, in __getattr__
+    return getattr(self.stream._file, name)
+AttributeError: '_io.BytesIO' object has no attribute 'replace'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:21:10] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3023, in __getattr__
+    return getattr(self.stream, name)
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 63, in process_image2
+    data_url = data_url.replace('data:image/jpeg;base64,', '')
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3029, in __getattr__
+    return getattr(self.stream._file, name)
+AttributeError: '_io.BytesIO' object has no attribute 'replace'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:21:13] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3023, in __getattr__
+    return getattr(self.stream, name)
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 63, in process_image2
+    data_url = data_url.replace('data:image/jpeg;base64,', '')
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3029, in __getattr__
+    return getattr(self.stream._file, name)
+AttributeError: '_io.BytesIO' object has no attribute 'replace'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:21:14] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3023, in __getattr__
+    return getattr(self.stream, name)
+AttributeError: 'SpooledTemporaryFile' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 63, in process_image2
+    data_url = data_url.replace('data:image/jpeg;base64,', '')
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\werkzeug\datastructures.py", line 3029, in __getattr__
+    return getattr(self.stream._file, name)
+AttributeError: '_io.BytesIO' object has no attribute 'replace'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:21:40] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:36] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:37] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:38] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:39] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:40] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:41] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:45] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    data_url = image_data.replace('data:image/jpeg;base64,', '')
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:46] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    decoded_image = base64.b64decode(data_url)
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:57] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    decoded_image = base64.b64decode(data_url)
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:58] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 65, in process_image2
+    decoded_image = base64.b64decode(data_url)
+TypeError: a bytes-like object is required, not 'str'
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:22:59] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:24:50] "[31m[1mPOST /classifySign HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:24:55] "[31m[1mPOST /classifySign HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:06] "[31m[1mPOST /classifySign HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:07] "[31m[1mPOST /classifySign HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:09] "[31m[1mPOST /classifySign HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:10] "[31m[1mPOST /classifySign HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:41] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:43] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.34 - - [09/Mar/2024 22:25:46] "POST /classifySign HTTP/1.1" 200 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 70, in process_image2
+    predict = main.predict_mpg(image_array)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\main.py", line 193, in predict_mpg
+    image2 = cv2.imread(img)
+TypeError: Can't convert object to 'str' for 'filename'
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:31:38] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 70, in process_image2
+    predict = main.predict_mpg(image_array)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\main.py", line 193, in predict_mpg
+    image2 = cv2.imread(img)
+TypeError: Can't convert object to 'str' for 'filename'
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:33:00] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 69, in process_image2
+    predict = main.predict_mpg(image_array)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\main.py", line 193, in predict_mpg
+    image2 = cv2.imread(img)
+TypeError: Can't convert object to 'str' for 'filename'
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:37:34] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:43:07] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:43:52] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:43:59] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:18] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:32] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C4472E4C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:41] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C447E8DC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:44] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:7 out of the last 7 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C448D7670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:45] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:8 out of the last 8 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C4544EB80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:47] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:9 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C503A9040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:47] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:10 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C457A21F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:48] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C00B23A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:48] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018C00BD0940> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:44:48] "POST /classifySign HTTP/1.1" 200 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 69, in process_image2
+    predict = main.predict_mpg(image_array)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\main.py", line 253, in predict_mpg
+    predicted_class_name = class_names[predicted_class]
+IndexError: list index out of range
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:45:54] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+ERROR:restApi:Exception on /classifySign [POST]
+Traceback (most recent call last):
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hmura\anaconda3\envs\pythonProject1\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\restApi.py", line 69, in process_image2
+    predict = main.predict_mpg(image_array)
+  File "C:\Users\hmura\PycharmProjects\pythonProject1\main.py", line 253, in predict_mpg
+    predicted_class_name = class_names[predicted_class]
+IndexError: list index out of range
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:46:39] "[35m[1mPOST /classifySign HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:50:36] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:51:49] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:51:58] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:52:10] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:52:23] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000230A11F51F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:52:37] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000230A107C430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:52:52] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:7 out of the last 7 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000230A0C1E310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:53:05] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:8 out of the last 8 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000230A1321A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:53:25] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:9 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000230A1C52790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:53:37] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:57:34] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:57:39] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:57:48] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:58:57] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:59:02] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 02:59:47] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 03:00:11] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:192.168.176.32 - - [25/Mar/2024 03:00:14] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 22:55:36] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 22:58:28] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 22:58:31] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 22:58:33] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 22:58:41] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 22:59:33] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:01:46] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:01:53] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:02:09] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:02:38] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:02:59] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:03:19] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:15:44] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/tester35@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [28/Mar/2024 23:15:44] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:25:10] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:26:24] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:26:26] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:27:12] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:27:14] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:27:16] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:28:57] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:28:59] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 16:29:01] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 19:20:08] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 19:20:08] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 19:20:10] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 19:20:11] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:01:44] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:01:44] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:02:02] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/ HTTP/1.1" 403 0
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:02:02] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:03:04] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/hussainmurad353@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:03:04] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:07:21] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:07:23] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:07:25] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:07:53] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:07:55] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:07:57] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:12:54] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:12:58] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:13:00] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:14:14] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:14:16] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:14:17] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:15:08] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:15:09] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [02/Apr/2024 21:15:12] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:48:50] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:48:50] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:49:11] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:49:37] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F086443430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:49:42] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F086AFF0D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:49:43] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:7 out of the last 7 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0F99F0CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:49:44] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:8 out of the last 8 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F081290040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:49:44] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:9 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F085C283A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:50:03] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:10 out of the last 10 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F085CCDC10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:50:03] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F090E214C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:50:03] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0968CBD30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:50:18] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F09EE6A670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:50:28] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0A12EBEE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:50:36] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0A6E9C790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:51:53] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:53:49] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AB82E0D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:54:08] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AB82E040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:54:14] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0B5977D30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:54:23] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AB7D8A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:56:40] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AE64A820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:56:42] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0BCEF0550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:56:44] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0BCF7A1F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:19] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AB7D8CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:27] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0BCEF0F70> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:34] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:50] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:50] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:58] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/hussainmurad353@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 04:57:58] "POST /chatBotApi HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0B5977820> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:00:17] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AB7D8160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:00:23] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0A12EBC10> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:00:28] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:00:56] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/hussainmurad353@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:00:56] "POST /chatBotApi HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0A6E0F5E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:28:53] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0968CB9D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:29:00] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F090E21CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:29:07] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:29:19] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/hussainmurad353@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:29:19] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:56:30] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/hussainmurad353@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:56:30] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:57:29] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/testd@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 05:57:29] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:18] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/testd@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:18] "POST /chatBotApi HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F08B0FB1F0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:37] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F085C28160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:43] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F086B9E5E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:50] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:59] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/testd@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:12:59] "POST /chatBotApi HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F086AFF310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:14:16] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0863BB0D0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:14:23] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F081290790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:14:31] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:14:42] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/testd@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:14:42] "POST /chatBotApi HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F085AE8EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:15:55] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0BCF7A4C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:16:00] "POST /classifySign HTTP/1.1" 200 -
+WARNING:tensorflow:11 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001F0AE587CA0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:16:06] "POST /classifySign HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:16:16] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/testd@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:16:16] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:43:54] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/testd@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:43:54] "POST /chatBotApi HTTP/1.1" 200 -
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:46:16] "OPTIONS /chatBotApi HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "GET /getCoursesSuggestion/hussainmurad353@gmail.com HTTP/1.1" 200 None
+INFO:werkzeug:134.83.226.33 - - [03/Apr/2024 06:46:16] "POST /chatBotApi HTTP/1.1" 200 -
